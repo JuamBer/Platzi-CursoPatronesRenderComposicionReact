@@ -1,0 +1,24 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main .container {
+    max-width: 750px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:#F5DDC0;
+    color: #000;
+}
+
+#root {
+    margin: 0 24px;
+    position: relative;
+    min-height: 90vh;
+}
