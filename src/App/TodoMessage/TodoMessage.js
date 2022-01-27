@@ -1,12 +1,9 @@
 import React from "react";
-import { TodoContext } from "../TodoContext/TodoContext";
+import { TodoContext } from "../CustomHooks/useTodos";
 import './TodoMessage.css';
 
-function TodoMessage(){
+function TodoMessage({msg}){
 
-    const {
-        msg
-    } = React.useContext(TodoContext);
 
     return ( 
         <div className="TodoMessage">

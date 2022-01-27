@@ -40,7 +40,7 @@ function useLocalStorage(itemName, initialValue) {
     let msg;
 
     if (error) {
-        msg = "Ha habido un error. Recargue la página.";
+        error = "Ha habido un error. Recargue la página.";
     } else if (loading) {
         msg = "Cargando..."
     } else if (!loading && (item.length === 0)) {
@@ -52,7 +52,8 @@ function useLocalStorage(itemName, initialValue) {
     return {
         item,
         saveItem,
-        msg,
+        error,
+        loading
     };
 }
 
