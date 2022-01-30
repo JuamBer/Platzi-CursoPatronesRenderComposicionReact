@@ -7,6 +7,7 @@ import { TodoList } from "./TodoList/TodoList";
 import { TodosError } from "./TodosError/TodosError";
 import { TodosLoading } from "./TodosLoading/TodosLoading";
 import { EmptyTodos } from "./EmptyTodos/EmptyTodos";
+import { EmptySearchResults } from "./EmptySearchResults/EmptySearchResults";
 import { TodoItem } from "./TodoItem/TodoItem";
 import { TodoSearch } from "./TodoSearch/TodoSearch"; 
 import { CreateTodoButton } from "./CreateTodoButton/CreateTodoButton"; 
@@ -46,10 +47,12 @@ function App() {
                     <TodoList
                         error={error}        
                         loading={loading}
+                        totalTodos={totalTodos}
                         searchedTodos={searchedTodos}
                         onError={()=> <TodosError/>}
                         onLoading={()=> <TodosLoading/>}
                         onEmptyTodos={()=> <EmptyTodos/>}
+                        onEmptySearchResults={()=> <EmptySearchResults searchText={searchValue}/>}
                         render={(todo)=>(
                             <TodoItem 
                                 id = {todo.id}
