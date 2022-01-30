@@ -35,13 +35,15 @@ function App() {
     return (
         <div className="main">
             <div className="container">
-                <TodoHeader> 
+                <TodoHeader loading={loading}> 
                     <TodoCounter
                         totalTodos={totalTodos}
-                        completedTodos={completedTodos}/>
+                        completedTodos={completedTodos}
+                        />
                     <TodoSearch
                         searchValue={searchValue}
-                        setSearchValue={setSearchValue}/>
+                        setSearchValue={setSearchValue}
+                    />
                 </TodoHeader>
 
                     <TodoList
