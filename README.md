@@ -1,6 +1,6 @@
 # Curso De Patrones de Render y Composición de React.js
 
-Material realizado en el curso de "Patrones de Render y Composición de React.js" de [Platzi]()
+Material realizado en el curso de "Patrones de Render y Composición de React.js" de [Platzi](https://platzi.com/p/JuamBer/curso/2457-react-patrones-render/diploma/detalle/)
 
 ## Tecnologías 🚀
 
@@ -21,7 +21,7 @@ Material realizado en el curso de "Patrones de Render y Composición de React.js
 
 ## Certificación 🎓
 
-![Certificación]()
+![Certificación](https://github.com/JuamBer/Platzi-CursoPatronesRenderComposicionReact/blob/master/img-licencia/diploma-react-patrones-render.jpg?raw=true)
 
 # Getting Started with Create React App
 
